@@ -80,7 +80,7 @@
     float:right;
     margin: 20px 10px;
   }
-  .Click:active {
+  .Click {
     border: solid;
     background: blue;
     color: white;
