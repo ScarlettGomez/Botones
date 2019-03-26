@@ -1,0 +1,92 @@
+.Caja { 
+    border: 3px double black;
+    border-radius: 30px;
+    background: grey; 
+    width: 400px;
+    height: 400px;
+    padding: 60px;
+}
+  .Button1 {
+    text-align: center;
+    background:rgb(0, 89, 255);
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 30px;
+    border: solid black;
+    height: 70px;
+    width: 160px;
+    float:left;
+    margin: 20px 10px;
+   }
+  .Button2 {
+    text-align: center;
+    background:rgb(29, 15, 29);
+    color:grey;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 30px;
+    border: solid black;
+    height: 70px;
+    width: 160px;
+    float:right;
+    margin: 20px 10px;
+  }
+  .Button3 {
+    text-align: center;
+    border-color: red;
+    background:white;
+    color:red;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 30px;
+    border: solid red;
+    height: 70px;
+    width: 160px;
+    float:left;
+    margin: 20px 10px;
+  }
+  .Button4 {
+    text-align: center;
+    background:rgb(63, 65, 68);
+    color:black;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 30px;
+    border: solid black;
+    height: 70px;
+    width: 160px;
+    float:right;
+    margin: 20px 10px;
+  }
+  .Button5 {
+    text-align: center;
+    background:rgb(134, 230, 225);
+    color:black;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 30px;
+    border: solid black;
+    height: 70px;
+    width: 160px;
+    float:left;
+    margin: 20px 10px;
+
+  }
+  .Button6 {
+    text-align: center;
+    background:rgb(225, 230, 157);
+    color:black;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 30px;
+    border: solid black;
+    height: 70px;
+    width: 160px;
+    float:right;
+    margin: 20px 10px;
+  }
+  .Click:active {
+    border: solid;
+    background: blue;
+    color: white;
+    border-radius: 20px; 
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    margin: 20px 160px;
+  }
